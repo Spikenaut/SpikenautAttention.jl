@@ -1,0 +1,22 @@
+# Julia package artifacts
+/Manifest.toml
+/LocalPreferences.toml
+*.jl.cov
+*.jl.*.cov
+*.jl.mem
+
+# Test, docs, and benchmark outputs
+/docs/build/
+/coverage/
+/benchmarks/results/
+
+# Editor and OS noise
+.DS_Store
+.vscode/
+.idea/
+.codex
+
+# Logs and scratch files
+*.log
+*.tmp
+*.swp
